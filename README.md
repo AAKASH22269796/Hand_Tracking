@@ -45,7 +45,7 @@ create env
 enter in it 
 pip install mediapipe opencv-python 
 pip install tensorflow==2.13.0
-if an error comes : pip uninstall jax kaxlib -y
+if an error comes : pip uninstall jax jaxlib -y
 now do : pip install tensorflow==2.13.0
 pip freeze > requirements.txt
 git init.....
