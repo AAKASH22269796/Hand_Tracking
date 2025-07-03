@@ -14,6 +14,7 @@ To download this project to your local system, run:
 git clone https://github.com/AAKASH22269796/Hand_Tracking.git
 cd Hand_Tracking
 
+## 🔧 Virtual Environment 
 
 ### 2️⃣ Create and Activate a Virtual Environment (Recommended)
 
@@ -23,13 +24,9 @@ python -m venv env
 env\Scripts\activate
 
 
-When you view it on GitHub, it will **render with "bash" labels and copy buttons**, but those are just UI additions by the site — not part of your text.
 
----
+## 🔧 Packages
 
-### ✅ Same for code blocks like this:
-
-```markdown
 ### 3️⃣ Install Required Packages
 
 Install all necessary Python packages using:
