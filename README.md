@@ -6,15 +6,19 @@ This project uses MediaPipe and OpenCV to detect and track hand landmarks in rea
 
 ## 🔧 Setup Instructions
 
+
 ### 1️⃣ Clone the Repository
 
 To download this project to your local system, run:
 
 ```bash
+
 git clone https://github.com/AAKASH22269796/Hand_Tracking.git
+
 cd Hand_Tracking
 
-## 🔧 Virtual Environment 
+
+### 🔧 Virtual Environment 
 
 ### 2️⃣ Create and Activate a Virtual Environment (Recommended)
 
@@ -33,3 +37,15 @@ Install all necessary Python packages using:
 
 ```bash
 pip install -r requirements.txt
+
+
+
+#####
+create env 
+enter in it 
+pip install mediapipe opencv-python 
+pip install tensorflow==2.13.0
+if an error comes : pip uninstall jax kaxlib -y
+now do : pip install tensorflow==2.13.0
+pip freeze > requirements.txt
+git init.....
