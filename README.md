@@ -48,8 +48,14 @@ pip install tensorflow==2.13.0
 if an error comes : pip uninstall jax jaxlib -y
 now do : pip install tensorflow==2.13.0
 pip freeze > requirements.txt
-git init.....
 
+#### For pushing:
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+git branch -M main
+git push -u origin main
 
 
 ##########
