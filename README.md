@@ -49,3 +49,28 @@ if an error comes : pip uninstall jax jaxlib -y
 now do : pip install tensorflow==2.13.0
 pip freeze > requirements.txt
 git init.....
+
+
+
+##########
+
+IN .gitignore put:
+
+# Ignore Python virtual environments
+env/
+.venv/
+venv/
+ENV/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
