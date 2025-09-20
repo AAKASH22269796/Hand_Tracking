@@ -16,7 +16,7 @@ To download this project to your local system, run:
 git clone https://github.com/AAKASH22269796/Hand_Tracking.git
 
 cd Hand_Tracking
-
+```
 
 ### 🔧 Virtual Environment 
 
@@ -26,7 +26,7 @@ cd Hand_Tracking
 ```bash
 python -m venv env
 env\Scripts\activate
-
+```
 
 
 ## 🔧 Packages
@@ -37,31 +37,37 @@ Install all necessary Python packages using:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 
 #####
 create env 
 enter in it 
+```bash
 pip install mediapipe opencv-python 
 pip install tensorflow==2.13.0
-if an error comes : pip uninstall jax jaxlib -y
-now do : pip install tensorflow==2.13.0
+```
+if an error comes : 
+```bash
+pip uninstall jax jaxlib -y
+pip install tensorflow==2.13.0
 pip freeze > requirements.txt
+```
 
 #### For pushing:
+```bash
 git init
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/USERNAME/REPO_NAME.git
 git branch -M main
 git push -u origin main
-
+```
 
 ##########
 
 IN .gitignore put:
-
+```.gitignore
 # Ignore Python virtual environments
 env/
 .venv/
@@ -80,3 +86,4 @@ __pycache__/
 # Ignore system files
 .DS_Store
 Thumbs.db
+```
